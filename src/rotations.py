@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import numpy as np
 
@@ -82,3 +82,4 @@ def euler_rate_matrix(phi: float, theta: float) -> np.ndarray:
         ],
         dtype=float,
     )
+

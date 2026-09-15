@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 import shutil
@@ -624,7 +624,7 @@ def main() -> None:
     )
 
     ax.set_title(
-        "Quadrotor GNC — 6-DOF Dynamics + Integration"
+        "Quadrotor GNC â€” 6-DOF Dynamics + Integration"
     )
 
     # ========================================================

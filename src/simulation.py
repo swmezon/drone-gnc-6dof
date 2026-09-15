@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from collections.abc import Callable
 from dataclasses import dataclass
@@ -79,3 +79,4 @@ def simulate(
     )
 
     return SimulationResult(time=time, state=state_history, control=control_history)
+
