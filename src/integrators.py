@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from collections.abc import Callable
 import numpy as np
@@ -24,3 +24,4 @@ def rk4_step(rhs: RHS, t: float, state: np.ndarray, dt: float) -> np.ndarray:
     k4 = rhs(t + dt, state + dt * k3)
 
     return state + (dt / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
+

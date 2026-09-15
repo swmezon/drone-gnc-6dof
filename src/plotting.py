@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 import numpy as np
@@ -169,3 +169,4 @@ def save_trajectory_3d(
     fig.tight_layout()
     fig.savefig(output, dpi=180, bbox_inches="tight")
     plt.close(fig)
+

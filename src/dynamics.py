@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import numpy as np
 
@@ -83,3 +83,4 @@ def quadrotor_dynamics(
         [position_dot_I, velocity_dot_I, euler_dot, omega_dot_B]
     )
     return state_dot
+
