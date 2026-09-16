@@ -111,55 +111,9 @@ The spacecraft extension introduces:
 - free-space 6-DOF spacecraft propagation using the existing RK4 integrator;
 - automated spacecraft propagation and mission-logic tests.
 
-### GNC Architecture
-
-```mermaid
-flowchart TD
-    TRUTH[Spacecraft Truth State]
-    SENS[Sensors]
-    NAV[Navigation]
-    GUID[Guidance]
-    CTRL[Control]
-    ACT[Actuator Interface]
-    DYN[6-DOF Spacecraft Dynamics]
-    INT[RK4 Propagation]
-    MM[Mission Manager]
-
-    TRUTH --> SENS
-    SENS --> NAV
-    NAV --> GUID
-    GUID --> CTRL
-    CTRL --> ACT
-    ACT --> DYN
-    DYN --> INT
-    INT --> TRUTH
-    MM --> GUID
-    MM --> CTRL
-```
-
-### Mission Sequence
-
-```mermaid
-flowchart LR
-    INIT[Initialization]
-    REN[Rendezvous]
-    HOV[Hover]
-    TAGD[TAG Descent]
-    TAGC[TAG Contact]
-    DEP[Departure]
-    DONE[Complete]
-
-    INIT --> REN
-    REN --> HOV
-    HOV --> TAGD
-    TAGD --> TAGC
-    TAGC --> DEP
-    DEP --> DONE
-```
-
 ### Current Capability
 
-The project currently provides a verified nonlinear rigid-body simulation foundation and an initial spacecraft mission architecture. The spacecraft scaffold supports quaternion attitude representation, body/inertial frame transformation, free-space translational and rotational propagation, body-wrench commands, target-relative state definitions, mission-phase management, and automated smoke tests.
+The project currently provides a verified nonlinear rigid-body simulation foundation and an initial spacecraft mission architecture. The spacecraft GNC architecture supports quaternion attitude representation, body/inertial frame transformation, free-space translational and rotational propagation, body-wrench commands, target-relative state definitions, mission-phase management, and automated verification tests.
 
 The current spacecraft model is intentionally a free-space rigid-body propagator. It does not yet claim orbital rendezvous, autonomous navigation, closed-loop TAG guidance, or flight-qualified actuator modeling.
 
