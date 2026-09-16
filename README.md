@@ -1,6 +1,7 @@
-﻿# Quadrotor GNC â€” 6-DOF Dynamics + Integration
+# 6-DOF Dynamics and GNC Simulation Framework
 
-A modular nonlinear quadrotor simulation with a 12-state rigid-body model, body-to-inertial thrust transformation, Euler-angle attitude kinematics, rotational rigid-body dynamics, Euler/RK4 numerical integration, and baseline open-loop maneuvers.
+A modular 6-DOF dynamics and GNC architecture for autonomous vehicle simulation and control development. The repository combines a nonlinear quadrotor rigid-body baseline with a spacecraft GNC software architecture that includes quaternion-based attitude kinematics, inertial/body/target reference-frame utilities, spacecraft state and rigid-body dynamics models, standardized sensor and actuator interfaces, rendezvous-to-departure mission-phase management, reusable RK4 propagation, and automated verification tests. Closed-loop spacecraft guidance, navigation estimation, and control laws are the next development stage.
+
 
 ## Model
 
@@ -26,25 +27,25 @@ The supplied mass and inertia values are nominal simulation parameters and are n
 
 ```text
 drone-gnc-6dof/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ parameters.py
-â”‚   â”œâ”€â”€ rotations.py
-â”‚   â”œâ”€â”€ dynamics.py
-â”‚   â”œâ”€â”€ integrators.py
-â”‚   â”œâ”€â”€ simulation.py
-â”‚   â””â”€â”€ plotting.py
-â”œâ”€â”€ scripts/
-â”‚   â”œâ”€â”€ run_hover.py
-â”‚   â”œâ”€â”€ run_climb.py
-â”‚   â”œâ”€â”€ run_attitude_maneuver.py
-â”‚   â””â”€â”€ compare_integrators.py
-â”œâ”€â”€ tests/
-â”‚   â”œâ”€â”€ test_hover_equilibrium.py
-â”‚   â””â”€â”€ test_rotations.py
-â””â”€â”€ results/
-    â””â”€â”€ figures/
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── parameters.py
+│   ├── rotations.py
+│   ├── dynamics.py
+│   ├── integrators.py
+│   ├── simulation.py
+│   └── plotting.py
+├── scripts/
+│   ├── run_hover.py
+│   ├── run_climb.py
+│   ├── run_attitude_maneuver.py
+│   └── compare_integrators.py
+├── tests/
+│   ├── test_hover_equilibrium.py
+│   └── test_rotations.py
+└── results/
+    └── figures/
 ```
 
 ## Setup
