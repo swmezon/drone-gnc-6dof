@@ -1,0 +1,42 @@
+{
+  "converged": true,
+  "controller_hz": 1000.0,
+  "attitude_kp": [
+    4.0,
+    4.0,
+    2.5
+  ],
+  "rate_kp": [
+    0.25288704000000006,
+    0.25288704000000006,
+    0.2652817688887298
+  ],
+  "rate_ki": [
+    0.02,
+    0.02,
+    0.017715610000000007
+  ],
+  "rate_kd": [
+    0.015,
+    0.015,
+    0.008928571428571428
+  ],
+  "targets": {
+    "post_transient_rmse_deg": [
+      0.25,
+      0.25,
+      0.5
+    ],
+    "steady_state_error_deg": 0.1,
+    "percent_overshoot": 5.0,
+    "settling_time_s": 1.0,
+    "rise_time_min_s": 0.3,
+    "rise_time_max_s": 0.7,
+    "max_saturation_fraction": [
+      0.02,
+      0.02,
+      0.05
+    ],
+    "require_no_sustained_oscillation": true
+  }
+}
