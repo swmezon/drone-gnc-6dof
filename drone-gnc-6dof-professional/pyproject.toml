@@ -1,8 +1,0 @@
-[project]
-name = "drone-gnc-6dof"
-version = "1.0.0"
-description = "Vehicle-agnostic GNC simulation framework with a quadrotor reference implementation"
-requires-python = ">=3.10"
-[tool.pytest.ini_options]
-pythonpath = ["src"]
-testpaths = ["tests"]

@@ -1,7 +1,0 @@
-{
-  "cases": 30,
-  "success_rate_pct": 100.0,
-  "median_position_rmse_m": 0.657628788592524,
-  "p95_position_rmse_m": 0.6581115804260624,
-  "worst_final_error_m": 7.722453222694795e-06
-}

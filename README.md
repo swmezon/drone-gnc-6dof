@@ -1,8 +1,10 @@
-# Quadrotor Guidance, Navigation, and Control Simulation
+# Flight Guidance, Navigation & Control Simulation
 
-6-DOF quadrotor GNC simulation with nonlinear rigid-body dynamics, waypoint guidance, cascaded flight control, IMU/position sensor modeling, 15-state Extended Kalman Filter state estimation, and Monte Carlo validation.
+Python simulation environment for developing and evaluating guidance, navigation, and control algorithms using nonlinear 6-DOF vehicle dynamics.
 
-## Closed-Loop GNC
+Current vehicle: **Quadrotor**
+
+## Closed-Loop Flight
 
 ![Closed-loop waypoint tracking](results/animations/optimized_2cm_full_gnc_3d.gif)
 
@@ -18,22 +20,27 @@
 **Mission completion:** 100 / 100 trials  
 **Tracking-envelope pass rate:** 99 / 100 trials
 
-![Monte Carlo validation](results/robustness/monte_carlo_validation_summary.png)
+![Monte Carlo GNC validation](results/robustness/monte_carlo_validation_summary.png)
 
-## GNC Architecture
+## Capabilities
 
-- Nonlinear 6-DOF quadrotor dynamics
-- Waypoint guidance and trajectory generation
+- Nonlinear 6-DOF vehicle dynamics
+- Waypoint guidance
 - Cascaded position, attitude, and angular-rate control
-- IMU and absolute-position sensor simulation
+- IMU and position sensor simulation
 - 15-state error-state Extended Kalman Filter
-- 100 Hz control and IMU propagation
-- 10 Hz position measurement updates
-- 100-run Monte Carlo validation
+- Controller gain optimization
+- Monte Carlo validation
 
-## State Estimation
-
-The navigation filter estimates position, velocity, attitude, accelerometer bias, and gyroscope bias using high-rate IMU propagation and lower-rate absolute-position corrections.
+## Architecture
 
 ```text
-δx = [δp, δv, δθ, δba, δbg]
+Guidance
+   ↓
+Navigation / State Estimation
+   ↓
+Flight Control
+   ↓
+Vehicle Model
+   ↓
+6-DOF Dynamics
