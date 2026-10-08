@@ -1,0 +1,248 @@
+[
+  {
+    "case": 1,
+    "duration_s": 40.0,
+    "mission_complete": true,
+    "waypoints_reached": 5,
+    "completion_time_s": 37.61,
+    "current_waypoint": 5,
+    "distance_to_current_waypoint_m": 0.08706487516838454,
+    "distance_to_final_waypoint_m": 0.08706487516838454,
+    "distance_change_last_5s_m": -0.5954414035162509,
+    "minimum_distance_last_5s_m": 0.05856930943530396,
+    "trajectory_rmse_m": 0.24083725440866058,
+    "ekf_position_rmse_m": 0.1459995926262377,
+    "diagnosis": "COMPLETED",
+    "mass_scale": 1.0823105223873841,
+    "inertia_scale": [
+      0.962753760623812,
+      1.030088112888278,
+      1.0625511043564018
+    ],
+    "wind_mps2": [
+      -0.2768750900067128,
+      0.006885837983126308,
+      -0.015778691203581774
+    ],
+    "final_position_m": [
+      -0.039980994071012785,
+      -0.06739175864148528,
+      1.4620505142539741
+    ],
+    "final_reference_m": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "integral_state": [
+      0.4809362390892645,
+      0.2120998796390251,
+      5.471780880407994
+    ]
+  },
+  {
+    "case": 1,
+    "duration_s": 50.0,
+    "mission_complete": true,
+    "waypoints_reached": 5,
+    "completion_time_s": 37.61,
+    "current_waypoint": 5,
+    "distance_to_current_waypoint_m": 0.05414898735670452,
+    "distance_to_final_waypoint_m": 0.05414898735670452,
+    "distance_change_last_5s_m": -0.04352783329741394,
+    "minimum_distance_last_5s_m": 0.023994948471678976,
+    "trajectory_rmse_m": 0.21724211361676452,
+    "ekf_position_rmse_m": 0.133253297432324,
+    "diagnosis": "COMPLETED",
+    "mass_scale": 1.0823105223873841,
+    "inertia_scale": [
+      0.962753760623812,
+      1.030088112888278,
+      1.0625511043564018
+    ],
+    "wind_mps2": [
+      -0.2768750900067128,
+      0.006885837983126308,
+      -0.015778691203581774
+    ],
+    "final_position_m": [
+      0.03507565344822469,
+      0.011375152477039638,
+      1.4603462829855676
+    ],
+    "final_reference_m": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "integral_state": [
+      0.4931956193683249,
+      0.3794455030902379,
+      5.378121260952098
+    ]
+  },
+  {
+    "case": 1,
+    "duration_s": 60.0,
+    "mission_complete": true,
+    "waypoints_reached": 5,
+    "completion_time_s": 37.61,
+    "current_waypoint": 5,
+    "distance_to_current_waypoint_m": 0.07310959639120798,
+    "distance_to_final_waypoint_m": 0.07310959639120798,
+    "distance_change_last_5s_m": -0.019963526115620064,
+    "minimum_distance_last_5s_m": 0.013653424974666017,
+    "trajectory_rmse_m": 0.20190680529181904,
+    "ekf_position_rmse_m": 0.12670826357951584,
+    "diagnosis": "COMPLETED",
+    "mass_scale": 1.0823105223873841,
+    "inertia_scale": [
+      0.962753760623812,
+      1.030088112888278,
+      1.0625511043564018
+    ],
+    "wind_mps2": [
+      -0.2768750900067128,
+      0.006885837983126308,
+      -0.015778691203581774
+    ],
+    "final_position_m": [
+      -0.06477453118432806,
+      -0.0036342050143913095,
+      1.533705574438796
+    ],
+    "final_reference_m": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "integral_state": [
+      0.3412957699708942,
+      0.3534806761193137,
+      5.710013811843967
+    ]
+  },
+  {
+    "case": 7,
+    "duration_s": 40.0,
+    "mission_complete": true,
+    "waypoints_reached": 5,
+    "completion_time_s": 37.7,
+    "current_waypoint": 5,
+    "distance_to_current_waypoint_m": 0.11848038360959992,
+    "distance_to_final_waypoint_m": 0.11848038360959992,
+    "distance_change_last_5s_m": -0.6143362791852071,
+    "minimum_distance_last_5s_m": 0.08853833368800319,
+    "trajectory_rmse_m": 0.24963774784051732,
+    "ekf_position_rmse_m": 0.11952246248911223,
+    "diagnosis": "COMPLETED",
+    "mass_scale": 1.095247629278875,
+    "inertia_scale": [
+      1.0782135019985357,
+      1.0733094033432995,
+      0.9052729544991
+    ],
+    "wind_mps2": [
+      -0.3197421720760722,
+      -0.19707245905730997,
+      0.044018264026250586
+    ],
+    "final_position_m": [
+      -0.10990167046873092,
+      0.04252681367295918,
+      1.512275758521812
+    ],
+    "final_reference_m": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "integral_state": [
+      0.619179884575328,
+      1.3039800576056435,
+      6.16529567406272
+    ]
+  },
+  {
+    "case": 7,
+    "duration_s": 50.0,
+    "mission_complete": true,
+    "waypoints_reached": 5,
+    "completion_time_s": 37.7,
+    "current_waypoint": 5,
+    "distance_to_current_waypoint_m": 0.09856246123193264,
+    "distance_to_final_waypoint_m": 0.09856246123193264,
+    "distance_change_last_5s_m": 0.040034287893326956,
+    "minimum_distance_last_5s_m": 0.049685947078619785,
+    "trajectory_rmse_m": 0.2274549207837075,
+    "ekf_position_rmse_m": 0.11542071073077056,
+    "diagnosis": "COMPLETED",
+    "mass_scale": 1.095247629278875,
+    "inertia_scale": [
+      1.0782135019985357,
+      1.0733094033432995,
+      0.9052729544991
+    ],
+    "wind_mps2": [
+      -0.3197421720760722,
+      -0.19707245905730997,
+      0.044018264026250586
+    ],
+    "final_position_m": [
+      -0.030869199432831725,
+      -0.08135699048210256,
+      1.4537107853796658
+    ],
+    "final_reference_m": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "integral_state": [
+      0.671243954776002,
+      1.3915368758132318,
+      6.157190462701008
+    ]
+  },
+  {
+    "case": 7,
+    "duration_s": 60.0,
+    "mission_complete": true,
+    "waypoints_reached": 5,
+    "completion_time_s": 37.7,
+    "current_waypoint": 5,
+    "distance_to_current_waypoint_m": 0.13824005711876078,
+    "distance_to_final_waypoint_m": 0.13824005711876078,
+    "distance_change_last_5s_m": 0.0305771295156973,
+    "minimum_distance_last_5s_m": 0.07766203354828473,
+    "trajectory_rmse_m": 0.21423332652406887,
+    "ekf_position_rmse_m": 0.1171446044742047,
+    "diagnosis": "COMPLETED",
+    "mass_scale": 1.095247629278875,
+    "inertia_scale": [
+      1.0782135019985357,
+      1.0733094033432995,
+      0.9052729544991
+    ],
+    "wind_mps2": [
+      -0.3197421720760722,
+      -0.19707245905730997,
+      0.044018264026250586
+    ],
+    "final_position_m": [
+      0.064083234745471,
+      -0.07770040335964613,
+      1.5946905472288728
+    ],
+    "final_reference_m": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "integral_state": [
+      0.609536415574953,
+      1.4510281587571785,
+      6.338594093047079
+    ]
+  }
+]

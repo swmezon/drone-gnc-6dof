@@ -1,0 +1,37 @@
+{
+  "tuning_method": "ekf_in_the_loop_pid_coordinate_search",
+  "sensor_seed": 24,
+  "ekf_covariance_file": "optimized_ekf_covariance.json",
+  "kp_pos": [
+    2.200000000000002,
+    2.700000000000002,
+    4.000000000000002
+  ],
+  "kd_pos": [
+    7.6,
+    4.000000000000002,
+    10.0
+  ],
+  "ki_pos": [
+    0.34999999999999964,
+    0.0,
+    0.0
+  ],
+  "result": {
+    "success": true,
+    "cost": 3.415789705642715,
+    "waypoints_reached": 5,
+    "trajectory_rmse_m": 0.07840759741372953,
+    "cross_track_rmse_m": 0.05489910285509258,
+    "cross_track_max_m": 0.09694467390510875,
+    "final_error_m": 0.05302431279483085,
+    "lateral_velocity_rmse_mps": 0.04315629197521436,
+    "path_length_excess_m": 0.7259707855969886,
+    "actual_path_length_m": 10.225970785596989,
+    "reference_path_length_m": 9.5,
+    "roll_rmse_deg": 0.7585739479357844,
+    "pitch_rmse_deg": 1.6320596149204893,
+    "torque_saturation_pct": 0.0,
+    "thrust_saturation_pct": 0.0
+  }
+}

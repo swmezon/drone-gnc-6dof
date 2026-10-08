@@ -1,0 +1,46 @@
+{
+  "trajectory_position_rmse_m": 0.11685442160532344,
+  "position_rmse_m": 0.11685442160532344,
+  "trajectory_x_rmse_m": 0.05812256476462768,
+  "trajectory_y_rmse_m": 0.05225979534639216,
+  "trajectory_z_rmse_m": 0.08686562671304186,
+  "trajectory_mean_error_m": 0.10896901381620848,
+  "trajectory_max_error_m": 0.19153510579066718,
+  "mean_error_m": 0.10896901381620848,
+  "max_error_m": 0.19153510579066718,
+  "final_error_m": 0.10770679308419365,
+  "waypoints_reached": 5,
+  "ekf_position_rmse_m": 0.12959706346433372,
+  "ekf_velocity_rmse_mps": 0.11861102764912111,
+  "ekf_roll_rmse_deg": 0.5531714894849438,
+  "ekf_pitch_rmse_deg": 0.8044286776621882,
+  "ekf_yaw_rmse_deg": 0.2152146861335305,
+  "roll_tracking_rmse_deg": 1.5225029208445628,
+  "pitch_tracking_rmse_deg": 2.598784791624545,
+  "yaw_tracking_rmse_deg": 0.030762405814355895,
+  "cross_track_rmse_m": 0.1023043481583314,
+  "cross_track_max_m": 0.1915350310989982,
+  "max_thrust_N": 16.896388592821943,
+  "max_torque_Nm": 1.2,
+  "thrust_saturation_pct": 0.0,
+  "torque_saturation_pct": 0.04998750312421895,
+  "duration_s": 40.0,
+  "sample_rate_hz": 100.0,
+  "gps_rate_hz": 10.0,
+  "mission_complete": true,
+  "kp_pos": [
+    3.2999999999999994,
+    1.6,
+    1.7000000000000004
+  ],
+  "kd_pos": [
+    3.8000000000000007,
+    3.1999999999999993,
+    7.0
+  ],
+  "ki_pos": [
+    0.29999999999999993,
+    0.25,
+    0.8499999999999999
+  ]
+}

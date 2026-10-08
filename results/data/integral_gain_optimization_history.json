@@ -1,0 +1,260 @@
+[
+  {
+    "iteration": 0,
+    "ki_pos": [
+      0.49999999999999994,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.7709573731380462,
+    "trajectory_mean_m": 0.17735558344695782,
+    "trajectory_p95_m": 0.24567752579618177,
+    "cross_track_mean_m": 0.13092735920644163,
+    "cross_track_p95_m": 0.17556031370280947,
+    "final_error_mean_m": 0.08629920145362731,
+    "final_error_p95_m": 0.1299060388469364,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 1,
+    "sweep": 1,
+    "parameter": "Kix",
+    "ki_pos": [
+      0.3999999999999999,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.7693365499750872,
+    "trajectory_mean_m": 0.17727688448279547,
+    "trajectory_p95_m": 0.24604299378132832,
+    "cross_track_mean_m": 0.13085507236294994,
+    "cross_track_p95_m": 0.17558537572897376,
+    "final_error_mean_m": 0.08605875306892649,
+    "final_error_p95_m": 0.12820239536018252,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 2,
+    "sweep": 1,
+    "parameter": "Kiz",
+    "ki_pos": [
+      0.3999999999999999,
+      0.15000000000000002,
+      0.25
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.7154089927147285,
+    "trajectory_mean_m": 0.1675496321852324,
+    "trajectory_p95_m": 0.21473255628418053,
+    "cross_track_mean_m": 0.12354756380783441,
+    "cross_track_p95_m": 0.16355057760879768,
+    "final_error_mean_m": 0.08617359880359174,
+    "final_error_p95_m": 0.12489754693118141,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 3,
+    "sweep": 2,
+    "parameter": "Kix",
+    "ki_pos": [
+      0.29999999999999993,
+      0.15000000000000002,
+      0.25
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.7127580707801487,
+    "trajectory_mean_m": 0.1676536661423255,
+    "trajectory_p95_m": 0.21482628693353387,
+    "cross_track_mean_m": 0.12370593050329241,
+    "cross_track_p95_m": 0.16357577879579488,
+    "final_error_mean_m": 0.08586154542299176,
+    "final_error_p95_m": 0.1221911164843777,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 4,
+    "sweep": 2,
+    "parameter": "Kiz",
+    "ki_pos": [
+      0.29999999999999993,
+      0.15000000000000002,
+      0.35
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6968223062202656,
+    "trajectory_mean_m": 0.16315168424231435,
+    "trajectory_p95_m": 0.20607247647356508,
+    "cross_track_mean_m": 0.12231172154590944,
+    "cross_track_p95_m": 0.15783778980707197,
+    "final_error_mean_m": 0.0867929416438355,
+    "final_error_p95_m": 0.1223786960918947,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 5,
+    "sweep": 3,
+    "parameter": "Kix",
+    "ki_pos": [
+      0.19999999999999993,
+      0.15000000000000002,
+      0.35
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6954869176767184,
+    "trajectory_mean_m": 0.1636319390639927,
+    "trajectory_p95_m": 0.20650455693793254,
+    "cross_track_mean_m": 0.12189237648689513,
+    "cross_track_p95_m": 0.1579262871339201,
+    "final_error_mean_m": 0.08663698081462393,
+    "final_error_p95_m": 0.12041336675029342,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 6,
+    "sweep": 3,
+    "parameter": "Kiy",
+    "ki_pos": [
+      0.19999999999999993,
+      0.25,
+      0.35
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6938952414197713,
+    "trajectory_mean_m": 0.16309038806956172,
+    "trajectory_p95_m": 0.20412440720105454,
+    "cross_track_mean_m": 0.12208129350251393,
+    "cross_track_p95_m": 0.157183691157434,
+    "final_error_mean_m": 0.08662457764855679,
+    "final_error_p95_m": 0.12202953307963925,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 7,
+    "sweep": 3,
+    "parameter": "Kiz",
+    "ki_pos": [
+      0.19999999999999993,
+      0.25,
+      0.44999999999999996
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6851383146565123,
+    "trajectory_mean_m": 0.16040710159331345,
+    "trajectory_p95_m": 0.19867871217955738,
+    "cross_track_mean_m": 0.12218303577103488,
+    "cross_track_p95_m": 0.1540361569464468,
+    "final_error_mean_m": 0.08636992741967207,
+    "final_error_p95_m": 0.12311547145702245,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 8,
+    "sweep": 4,
+    "parameter": "Kiz",
+    "ki_pos": [
+      0.19999999999999993,
+      0.25,
+      0.5499999999999999
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6800957162759252,
+    "trajectory_mean_m": 0.158858954632111,
+    "trajectory_p95_m": 0.1952504487063199,
+    "cross_track_mean_m": 0.12080465435669449,
+    "cross_track_p95_m": 0.15208431977524017,
+    "final_error_mean_m": 0.08641888655916855,
+    "final_error_p95_m": 0.1246776734490264,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 9,
+    "sweep": 5,
+    "parameter": "Kix",
+    "ki_pos": [
+      0.29999999999999993,
+      0.25,
+      0.5499999999999999
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6793409156678021,
+    "trajectory_mean_m": 0.15834423682158047,
+    "trajectory_p95_m": 0.19477295416454304,
+    "cross_track_mean_m": 0.1205493379772401,
+    "cross_track_p95_m": 0.1519893333203998,
+    "final_error_mean_m": 0.08647966019168728,
+    "final_error_p95_m": 0.12504465638596893,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 10,
+    "sweep": 5,
+    "parameter": "Kiz",
+    "ki_pos": [
+      0.29999999999999993,
+      0.25,
+      0.6499999999999999
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6762663202035707,
+    "trajectory_mean_m": 0.15746864584315956,
+    "trajectory_p95_m": 0.19205095586253496,
+    "cross_track_mean_m": 0.1200979288987694,
+    "cross_track_p95_m": 0.15078891504509817,
+    "final_error_mean_m": 0.08669310543155673,
+    "final_error_p95_m": 0.12623347994915068,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 11,
+    "sweep": 6,
+    "parameter": "Kiz",
+    "ki_pos": [
+      0.29999999999999993,
+      0.25,
+      0.7499999999999999
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6745009889734976,
+    "trajectory_mean_m": 0.15710674735211255,
+    "trajectory_p95_m": 0.18979095489119002,
+    "cross_track_mean_m": 0.12030274450054754,
+    "cross_track_p95_m": 0.150024234115268,
+    "final_error_mean_m": 0.08681718450972666,
+    "final_error_p95_m": 0.1272769215368681,
+    "failure_reasons": {}
+  },
+  {
+    "iteration": 12,
+    "sweep": 7,
+    "parameter": "Kiz",
+    "ki_pos": [
+      0.29999999999999993,
+      0.25,
+      0.8499999999999999
+    ],
+    "success_rate": 1.0,
+    "successful_cases": 10,
+    "performance_cost": 0.6735766358471599,
+    "trajectory_mean_m": 0.15708172884199076,
+    "trajectory_p95_m": 0.18809494379592212,
+    "cross_track_mean_m": 0.120706472774851,
+    "cross_track_p95_m": 0.14961665237616337,
+    "final_error_mean_m": 0.08675657295321489,
+    "final_error_p95_m": 0.12812098341570438,
+    "failure_reasons": {}
+  }
+]

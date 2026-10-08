@@ -1,0 +1,37 @@
+{
+  "trajectory_position_rmse_m": 0.005516419685689594,
+  "position_rmse_m": 0.005516419685689594,
+  "trajectory_x_rmse_m": 0.0037240262848056375,
+  "trajectory_y_rmse_m": 0.0036659710467229862,
+  "trajectory_z_rmse_m": 0.0017672494626761739,
+  "trajectory_mean_error_m": 0.00425386997366086,
+  "trajectory_max_error_m": 0.014459284276264677,
+  "mean_error_m": 0.00425386997366086,
+  "max_error_m": 0.014459284276264677,
+  "final_error_m": 0.00041050432200678177,
+  "waypoints_reached": 5,
+  "cross_track_rmse_m": 0.001736829132454433,
+  "cross_track_max_m": 0.005652827995570341,
+  "roll_tracking_rmse_deg": 0.34395214620387177,
+  "pitch_tracking_rmse_deg": 0.33368591236863016,
+  "yaw_tracking_rmse_deg": 0.003282842595956531,
+  "kp_pos": [
+    5.2,
+    5.7,
+    7.0
+  ],
+  "kd_pos": [
+    7.0,
+    7.0,
+    7.0
+  ],
+  "ki_pos": [
+    0.8499999999999999,
+    0.15,
+    0.0
+  ],
+  "feedback": "perfect_true_state",
+  "ekf_enabled": false,
+  "sensor_noise_enabled": false,
+  "monte_carlo_enabled": false
+}

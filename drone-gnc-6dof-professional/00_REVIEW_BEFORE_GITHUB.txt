@@ -1,0 +1,10 @@
+THIS PACKAGE IS A CLEAN REPOSITORY CANDIDATE.
+
+Before replacing your GitHub main branch:
+1. Review README.md and the generated animation/plots.
+2. Run VERIFY_PROJECT.bat on your Windows machine.
+3. Confirm all tests pass and metrics regenerate.
+4. Compare any existing files in your current repository before deleting them.
+5. Do not push until the visual assets and README are approved.
+
+Important: this package deliberately does not include the old nested fixed_wing_uav_gnc folder, old Day-X notes, cache folders, duplicate README files, or obsolete tuning artifacts.

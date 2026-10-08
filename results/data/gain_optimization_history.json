@@ -1,0 +1,740 @@
+[
+  {
+    "iteration": 0,
+    "gains": [
+      0.9,
+      0.9,
+      2.0,
+      1.9,
+      1.9,
+      1.7
+    ],
+    "cost": 0.1986600228694384,
+    "trajectory_rmse_m": 0.10499369627403266,
+    "cross_track_rmse_m": 0.07959726311347781,
+    "final_error_m": 0.06793675852059476,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 1,
+    "sweep": 1,
+    "parameter": "Kpy",
+    "gains": [
+      0.9,
+      0.7,
+      2.0,
+      1.9,
+      1.9,
+      1.7
+    ],
+    "cost": 0.1926660577655222,
+    "trajectory_rmse_m": 0.10450700992075913,
+    "cross_track_rmse_m": 0.07847348468487467,
+    "final_error_m": 0.058607868662214145,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 2,
+    "sweep": 1,
+    "parameter": "Kpz",
+    "gains": [
+      0.9,
+      0.7,
+      1.8,
+      1.9,
+      1.9,
+      1.7
+    ],
+    "cost": 0.19144373605542866,
+    "trajectory_rmse_m": 0.10330213351081584,
+    "cross_track_rmse_m": 0.07786776887792161,
+    "final_error_m": 0.05948155177234319,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 3,
+    "sweep": 1,
+    "parameter": "Kvx",
+    "gains": [
+      0.9,
+      0.7,
+      1.8,
+      2.1,
+      1.9,
+      1.7
+    ],
+    "cost": 0.19088537019652715,
+    "trajectory_rmse_m": 0.10311305096306107,
+    "cross_track_rmse_m": 0.07735628838147697,
+    "final_error_m": 0.05951020589471674,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 4,
+    "sweep": 1,
+    "parameter": "Kvy",
+    "gains": [
+      0.9,
+      0.7,
+      1.8,
+      2.1,
+      2.1,
+      1.7
+    ],
+    "cost": 0.18956354806662645,
+    "trajectory_rmse_m": 0.10317109122106788,
+    "cross_track_rmse_m": 0.07704821833072714,
+    "final_error_m": 0.057212586195026435,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 5,
+    "sweep": 1,
+    "parameter": "Kvz",
+    "gains": [
+      0.9,
+      0.7,
+      1.8,
+      2.1,
+      2.1,
+      1.9
+    ],
+    "cost": 0.18856332278887655,
+    "trajectory_rmse_m": 0.10185850530555493,
+    "cross_track_rmse_m": 0.0763552415371219,
+    "final_error_m": 0.058876772660960336,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 6,
+    "sweep": 2,
+    "parameter": "Kpx",
+    "gains": [
+      1.1,
+      0.7,
+      1.8,
+      2.1,
+      2.1,
+      1.9
+    ],
+    "cost": 0.18843162644527478,
+    "trajectory_rmse_m": 0.10135344368560574,
+    "cross_track_rmse_m": 0.07685711347469495,
+    "final_error_m": 0.05887069530729567,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 7,
+    "sweep": 2,
+    "parameter": "Kpy",
+    "gains": [
+      1.1,
+      0.49999999999999994,
+      1.8,
+      2.1,
+      2.1,
+      1.9
+    ],
+    "cost": 0.18323771818451146,
+    "trajectory_rmse_m": 0.10167273134507251,
+    "cross_track_rmse_m": 0.07618127349252804,
+    "final_error_m": 0.048858063440085836,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 8,
+    "sweep": 2,
+    "parameter": "Kpz",
+    "gains": [
+      1.1,
+      0.49999999999999994,
+      1.6,
+      2.1,
+      2.1,
+      1.9
+    ],
+    "cost": 0.18248414072476166,
+    "trajectory_rmse_m": 0.1003255813295331,
+    "cross_track_rmse_m": 0.07554273336856378,
+    "final_error_m": 0.05100301873761144,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 9,
+    "sweep": 2,
+    "parameter": "Kvx",
+    "gains": [
+      1.1,
+      0.49999999999999994,
+      1.6,
+      2.3000000000000003,
+      2.1,
+      1.9
+    ],
+    "cost": 0.18184623042416148,
+    "trajectory_rmse_m": 0.10008361584812918,
+    "cross_track_rmse_m": 0.07500776242363695,
+    "final_error_m": 0.051013585516609165,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 10,
+    "sweep": 2,
+    "parameter": "Kvy",
+    "gains": [
+      1.1,
+      0.49999999999999994,
+      1.6,
+      2.3000000000000003,
+      2.3000000000000003,
+      1.9
+    ],
+    "cost": 0.18149743151089695,
+    "trajectory_rmse_m": 0.10050411156587384,
+    "cross_track_rmse_m": 0.07512461830026841,
+    "final_error_m": 0.04929971243964359,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 11,
+    "sweep": 2,
+    "parameter": "Kvz",
+    "gains": [
+      1.1,
+      0.49999999999999994,
+      1.6,
+      2.3000000000000003,
+      2.3000000000000003,
+      2.1
+    ],
+    "cost": 0.18098449954546725,
+    "trajectory_rmse_m": 0.09939535191349871,
+    "cross_track_rmse_m": 0.07456405588532117,
+    "final_error_m": 0.05133221143595536,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 12,
+    "sweep": 3,
+    "parameter": "Kpy",
+    "gains": [
+      1.1,
+      0.4,
+      1.6,
+      2.3000000000000003,
+      2.3000000000000003,
+      2.1
+    ],
+    "cost": 0.1807839588084858,
+    "trajectory_rmse_m": 0.10040301516539873,
+    "cross_track_rmse_m": 0.07496072639935089,
+    "final_error_m": 0.04832079768714783,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 13,
+    "sweep": 3,
+    "parameter": "Kpz",
+    "gains": [
+      1.1,
+      0.4,
+      1.4000000000000001,
+      2.3000000000000003,
+      2.3000000000000003,
+      2.1
+    ],
+    "cost": 0.180355402655843,
+    "trajectory_rmse_m": 0.09889679342283186,
+    "cross_track_rmse_m": 0.07425478318412082,
+    "final_error_m": 0.05153504368984104,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 14,
+    "sweep": 3,
+    "parameter": "Kvx",
+    "gains": [
+      1.1,
+      0.4,
+      1.4000000000000001,
+      2.5000000000000004,
+      2.3000000000000003,
+      2.1
+    ],
+    "cost": 0.18007801309712304,
+    "trajectory_rmse_m": 0.0987788705829159,
+    "cross_track_rmse_m": 0.07385038734737276,
+    "final_error_m": 0.05182270400735517,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 15,
+    "sweep": 3,
+    "parameter": "Kvy",
+    "gains": [
+      1.1,
+      0.4,
+      1.4000000000000001,
+      2.5000000000000004,
+      2.1,
+      2.1
+    ],
+    "cost": 0.1794919566767908,
+    "trajectory_rmse_m": 0.09815392335717611,
+    "cross_track_rmse_m": 0.07345567034827943,
+    "final_error_m": 0.05249256111681024,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 16,
+    "sweep": 3,
+    "parameter": "Kvz",
+    "gains": [
+      1.1,
+      0.4,
+      1.4000000000000001,
+      2.5000000000000004,
+      2.1,
+      2.3000000000000003
+    ],
+    "cost": 0.17910949441175142,
+    "trajectory_rmse_m": 0.09721568360956775,
+    "cross_track_rmse_m": 0.07295283057114305,
+    "final_error_m": 0.05435837574765272,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 17,
+    "sweep": 4,
+    "parameter": "Kpz",
+    "gains": [
+      1.1,
+      0.4,
+      1.2000000000000002,
+      2.5000000000000004,
+      2.1,
+      2.3000000000000003
+    ],
+    "cost": 0.17858243698424697,
+    "trajectory_rmse_m": 0.09548436637344994,
+    "cross_track_rmse_m": 0.07203163880074202,
+    "final_error_m": 0.05814868302048103,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 18,
+    "sweep": 4,
+    "parameter": "Kvx",
+    "gains": [
+      1.1,
+      0.4,
+      1.2000000000000002,
+      2.7000000000000006,
+      2.1,
+      2.3000000000000003
+    ],
+    "cost": 0.17856284514974485,
+    "trajectory_rmse_m": 0.09547897939091317,
+    "cross_track_rmse_m": 0.07170475518159386,
+    "final_error_m": 0.05861059874527258,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 19,
+    "sweep": 4,
+    "parameter": "Kvy",
+    "gains": [
+      1.1,
+      0.4,
+      1.2000000000000002,
+      2.7000000000000006,
+      1.9000000000000001,
+      2.3000000000000003
+    ],
+    "cost": 0.1782775573086875,
+    "trajectory_rmse_m": 0.09489732401723025,
+    "cross_track_rmse_m": 0.07143415584451102,
+    "final_error_m": 0.05960923281614794,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 20,
+    "sweep": 4,
+    "parameter": "Kvz",
+    "gains": [
+      1.1,
+      0.4,
+      1.2000000000000002,
+      2.7000000000000006,
+      1.9000000000000001,
+      2.5000000000000004
+    ],
+    "cost": 0.177868395156699,
+    "trajectory_rmse_m": 0.09410305084305329,
+    "cross_track_rmse_m": 0.07088532797841256,
+    "final_error_m": 0.06120269665967257,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 21,
+    "sweep": 5,
+    "parameter": "Kpx",
+    "gains": [
+      1.3,
+      0.4,
+      1.2000000000000002,
+      2.7000000000000006,
+      1.9000000000000001,
+      2.5000000000000004
+    ],
+    "cost": 0.17755269240151955,
+    "trajectory_rmse_m": 0.09366606503347485,
+    "cross_track_rmse_m": 0.07135222049157677,
+    "final_error_m": 0.060744923998724235,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 22,
+    "sweep": 5,
+    "parameter": "Kpz",
+    "gains": [
+      1.3,
+      0.4,
+      1.0000000000000002,
+      2.7000000000000006,
+      1.9000000000000001,
+      2.5000000000000004
+    ],
+    "cost": 0.17674087488308593,
+    "trajectory_rmse_m": 0.09166585023175884,
+    "cross_track_rmse_m": 0.06996134458126418,
+    "final_error_m": 0.0652080324307579,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 23,
+    "sweep": 5,
+    "parameter": "Kvx",
+    "gains": [
+      1.3,
+      0.4,
+      1.0000000000000002,
+      2.900000000000001,
+      1.9000000000000001,
+      2.5000000000000004
+    ],
+    "cost": 0.17653487936144424,
+    "trajectory_rmse_m": 0.09161172151263328,
+    "cross_track_rmse_m": 0.06959471776020677,
+    "final_error_m": 0.06545423905731171,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 24,
+    "sweep": 5,
+    "parameter": "Kvz",
+    "gains": [
+      1.3,
+      0.4,
+      1.0000000000000002,
+      2.900000000000001,
+      1.9000000000000001,
+      2.7000000000000006
+    ],
+    "cost": 0.17619432933333118,
+    "trajectory_rmse_m": 0.09095540577797645,
+    "cross_track_rmse_m": 0.0690222079997813,
+    "final_error_m": 0.0669445351110375,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 25,
+    "sweep": 6,
+    "parameter": "Kpz",
+    "gains": [
+      1.3,
+      0.4,
+      0.8000000000000003,
+      2.900000000000001,
+      1.9000000000000001,
+      2.7000000000000006
+    ],
+    "cost": 0.1751820162368326,
+    "trajectory_rmse_m": 0.08867310385777329,
+    "cross_track_rmse_m": 0.06695032910116065,
+    "final_error_m": 0.07259233110637767,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 26,
+    "sweep": 6,
+    "parameter": "Kvx",
+    "gains": [
+      1.3,
+      0.4,
+      0.8000000000000003,
+      3.100000000000001,
+      1.9000000000000001,
+      2.7000000000000006
+    ],
+    "cost": 0.175169312335288,
+    "trajectory_rmse_m": 0.08872177124101341,
+    "cross_track_rmse_m": 0.06666683636995466,
+    "final_error_m": 0.07289482763361721,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 27,
+    "sweep": 6,
+    "parameter": "Kvy",
+    "gains": [
+      1.3,
+      0.4,
+      0.8000000000000003,
+      3.100000000000001,
+      1.7000000000000002,
+      2.7000000000000006
+    ],
+    "cost": 0.17508504021832116,
+    "trajectory_rmse_m": 0.08818888039960404,
+    "cross_track_rmse_m": 0.06655814086310341,
+    "final_error_m": 0.07395510834277913,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 28,
+    "sweep": 6,
+    "parameter": "Kvz",
+    "gains": [
+      1.3,
+      0.4,
+      0.8000000000000003,
+      3.100000000000001,
+      1.7000000000000002,
+      2.900000000000001
+    ],
+    "cost": 0.17484308980130858,
+    "trajectory_rmse_m": 0.08766622935104915,
+    "cross_track_rmse_m": 0.06595775641560081,
+    "final_error_m": 0.07541708627711766,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 29,
+    "sweep": 7,
+    "parameter": "Kpx",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.100000000000001,
+      1.7000000000000002,
+      2.900000000000001
+    ],
+    "cost": 0.1748288664867539,
+    "trajectory_rmse_m": 0.08739446001232035,
+    "cross_track_rmse_m": 0.06649032415144464,
+    "final_error_m": 0.07513332672170016,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 30,
+    "sweep": 7,
+    "parameter": "Kvx",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.300000000000001,
+      1.7000000000000002,
+      2.900000000000001
+    ],
+    "cost": 0.17472749836353318,
+    "trajectory_rmse_m": 0.08741102681149814,
+    "cross_track_rmse_m": 0.06621016442802735,
+    "final_error_m": 0.0753176964620291,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 31,
+    "sweep": 7,
+    "parameter": "Kvz",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.300000000000001,
+      1.7000000000000002,
+      3.100000000000001
+    ],
+    "cost": 0.17453116164971394,
+    "trajectory_rmse_m": 0.08694103077365344,
+    "cross_track_rmse_m": 0.06564775354510057,
+    "final_error_m": 0.07670863143447015,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 32,
+    "sweep": 8,
+    "parameter": "Kvz",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.300000000000001,
+      1.7000000000000002,
+      3.300000000000001
+    ],
+    "cost": 0.17436681263466897,
+    "trajectory_rmse_m": 0.08651505513165453,
+    "cross_track_rmse_m": 0.06511577269020061,
+    "final_error_m": 0.07802985597072797,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 33,
+    "sweep": 9,
+    "parameter": "Kvz",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.300000000000001,
+      1.7000000000000002,
+      3.5000000000000013
+    ],
+    "cost": 0.1742287520751391,
+    "trajectory_rmse_m": 0.08612632573053607,
+    "cross_track_rmse_m": 0.06461167287854937,
+    "final_error_m": 0.07928734337138199,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 34,
+    "sweep": 10,
+    "parameter": "Kvz",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.300000000000001,
+      1.7000000000000002,
+      3.7000000000000015
+    ],
+    "cost": 0.17411227836513507,
+    "trajectory_rmse_m": 0.08576942736097304,
+    "cross_track_rmse_m": 0.06413337632622808,
+    "final_error_m": 0.0804856375189819,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 35,
+    "sweep": 11,
+    "parameter": "Kvz",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.300000000000001,
+      1.7000000000000002,
+      3.9000000000000017
+    ],
+    "cost": 0.17401338376055106,
+    "trajectory_rmse_m": 0.08543997343838829,
+    "cross_track_rmse_m": 0.0636790377282653,
+    "final_error_m": 0.0816282640519276,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  },
+  {
+    "iteration": 36,
+    "sweep": 12,
+    "parameter": "Kvz",
+    "gains": [
+      1.5,
+      0.4,
+      0.8000000000000003,
+      3.300000000000001,
+      1.7000000000000002,
+      4.0
+    ],
+    "cost": 0.17396942650364638,
+    "trajectory_rmse_m": 0.08528438929506907,
+    "cross_track_rmse_m": 0.06346031342889664,
+    "final_error_m": 0.08217960427380963,
+    "torque_saturation_pct": 0.0,
+    "waypoints_reached": 5,
+    "mission_complete": true
+  }
+]

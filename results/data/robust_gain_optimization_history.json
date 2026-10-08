@@ -1,0 +1,1110 @@
+[
+  {
+    "iteration": 0,
+    "parameter": "initial",
+    "gains": [
+      2.6999999999999997,
+      1.0,
+      1.4000000000000004,
+      5.0,
+      2.5999999999999996,
+      5.0,
+      0.05,
+      0.05,
+      0.1
+    ],
+    "success_rate": 0.7,
+    "successful_cases": 7,
+    "trajectory_mean_m": 0.2701016331814891,
+    "trajectory_p95_m": 0.5171169489224965,
+    "cross_track_mean_m": 0.16603604423555615,
+    "cross_track_p95_m": 0.24562052285719377,
+    "final_error_mean_m": 0.23005031896696143,
+    "final_error_p95_m": 0.5539226661762513,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.7196072460580814,
+    "failure_reasons": {
+      "mission_not_complete": 2,
+      "final_error_limit": 1
+    }
+  },
+  {
+    "iteration": 1,
+    "sweep": 1,
+    "parameter": "Kpx",
+    "gains": [
+      2.9999999999999996,
+      1.0,
+      1.4000000000000004,
+      5.0,
+      2.5999999999999996,
+      5.0,
+      0.05,
+      0.05,
+      0.1
+    ],
+    "success_rate": 0.7,
+    "successful_cases": 7,
+    "trajectory_mean_m": 0.2693127047529337,
+    "trajectory_p95_m": 0.5160566404798252,
+    "cross_track_mean_m": 0.16486813081918222,
+    "cross_track_p95_m": 0.24566120058909816,
+    "final_error_mean_m": 0.2282088080331391,
+    "final_error_p95_m": 0.5520827010353642,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.713973293003366,
+    "failure_reasons": {
+      "mission_not_complete": 2,
+      "final_error_limit": 1
+    }
+  },
+  {
+    "iteration": 2,
+    "sweep": 1,
+    "parameter": "Kpy",
+    "gains": [
+      2.9999999999999996,
+      1.3,
+      1.4000000000000004,
+      5.0,
+      2.5999999999999996,
+      5.0,
+      0.05,
+      0.05,
+      0.1
+    ],
+    "success_rate": 0.7,
+    "successful_cases": 7,
+    "trajectory_mean_m": 0.26139131261848053,
+    "trajectory_p95_m": 0.5137446532308573,
+    "cross_track_mean_m": 0.15971800705296582,
+    "cross_track_p95_m": 0.24063194263592147,
+    "final_error_mean_m": 0.21906970590465233,
+    "final_error_p95_m": 0.5495215227623197,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.689234717890839,
+    "failure_reasons": {
+      "mission_not_complete": 2,
+      "final_error_limit": 1
+    }
+  },
+  {
+    "iteration": 3,
+    "sweep": 1,
+    "parameter": "Kpz",
+    "gains": [
+      2.9999999999999996,
+      1.3,
+      1.7000000000000004,
+      5.0,
+      2.5999999999999996,
+      5.0,
+      0.05,
+      0.05,
+      0.1
+    ],
+    "success_rate": 0.7,
+    "successful_cases": 7,
+    "trajectory_mean_m": 0.2403763201113783,
+    "trajectory_p95_m": 0.4394364919418254,
+    "cross_track_mean_m": 0.15333680931111868,
+    "cross_track_p95_m": 0.2176105389201849,
+    "final_error_mean_m": 0.19208998941574246,
+    "final_error_p95_m": 0.4648206501476667,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.4742746033845775,
+    "failure_reasons": {
+      "mission_not_complete": 2,
+      "final_error_limit": 1
+    }
+  },
+  {
+    "iteration": 4,
+    "sweep": 1,
+    "parameter": "Kvx",
+    "gains": [
+      2.9999999999999996,
+      1.3,
+      1.7000000000000004,
+      5.3,
+      2.5999999999999996,
+      5.0,
+      0.05,
+      0.05,
+      0.1
+    ],
+    "success_rate": 0.7,
+    "successful_cases": 7,
+    "trajectory_mean_m": 0.24034512146735185,
+    "trajectory_p95_m": 0.43959780556233147,
+    "cross_track_mean_m": 0.1531477832396924,
+    "cross_track_p95_m": 0.21730000632788934,
+    "final_error_mean_m": 0.1919800808996382,
+    "final_error_p95_m": 0.4644249626156638,
+    "torque_saturation_mean_pct": 0.012496875781054738,
+    "performance_cost": 1.4738267826194877,
+    "failure_reasons": {
+      "mission_not_complete": 2,
+      "final_error_limit": 1
+    }
+  },
+  {
+    "iteration": 5,
+    "sweep": 1,
+    "parameter": "Kvz",
+    "gains": [
+      2.9999999999999996,
+      1.3,
+      1.7000000000000004,
+      5.3,
+      2.5999999999999996,
+      5.3,
+      0.05,
+      0.05,
+      0.1
+    ],
+    "success_rate": 0.7,
+    "successful_cases": 7,
+    "trajectory_mean_m": 0.2398633331042316,
+    "trajectory_p95_m": 0.43790852130902075,
+    "cross_track_mean_m": 0.15318888706749995,
+    "cross_track_p95_m": 0.21684419839869687,
+    "final_error_mean_m": 0.1922975274882394,
+    "final_error_p95_m": 0.46340975399859086,
+    "torque_saturation_mean_pct": 0.012496875781054738,
+    "performance_cost": 1.4706712342767423,
+    "failure_reasons": {
+      "mission_not_complete": 2,
+      "final_error_limit": 1
+    }
+  },
+  {
+    "iteration": 6,
+    "sweep": 1,
+    "parameter": "Kix",
+    "gains": [
+      2.9999999999999996,
+      1.3,
+      1.7000000000000004,
+      5.3,
+      2.5999999999999996,
+      5.3,
+      0.1,
+      0.05,
+      0.1
+    ],
+    "success_rate": 0.7,
+    "successful_cases": 7,
+    "trajectory_mean_m": 0.23834116333183922,
+    "trajectory_p95_m": 0.435087080832167,
+    "cross_track_mean_m": 0.15107230525684984,
+    "cross_track_p95_m": 0.21713687190724756,
+    "final_error_mean_m": 0.18808502866978866,
+    "final_error_p95_m": 0.45764511489325643,
+    "torque_saturation_mean_pct": 0.012496875781054738,
+    "performance_cost": 1.4564916566572739,
+    "failure_reasons": {
+      "mission_not_complete": 2,
+      "final_error_limit": 1
+    }
+  },
+  {
+    "iteration": 7,
+    "sweep": 1,
+    "parameter": "Kiy",
+    "gains": [
+      2.9999999999999996,
+      1.3,
+      1.7000000000000004,
+      5.3,
+      2.5999999999999996,
+      5.3,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.23091330008341204,
+    "trajectory_p95_m": 0.4320340687079687,
+    "cross_track_mean_m": 0.14483012711448115,
+    "cross_track_p95_m": 0.21061599890322358,
+    "final_error_mean_m": 0.18054239472718686,
+    "final_error_p95_m": 0.45571415544529226,
+    "torque_saturation_mean_pct": 0.012496875781054738,
+    "performance_cost": 1.4320413208065366,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 8,
+    "sweep": 1,
+    "parameter": "Kiz",
+    "gains": [
+      2.9999999999999996,
+      1.3,
+      1.7000000000000004,
+      5.3,
+      2.5999999999999996,
+      5.3,
+      0.1,
+      0.1,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21685994439570835,
+    "trajectory_p95_m": 0.39703055394852,
+    "cross_track_mean_m": 0.13740626931214173,
+    "cross_track_p95_m": 0.1864532125449197,
+    "final_error_mean_m": 0.16147751835187857,
+    "final_error_p95_m": 0.4275510377975731,
+    "torque_saturation_mean_pct": 0.012496875781054738,
+    "performance_cost": 1.324729353349862,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 9,
+    "sweep": 2,
+    "parameter": "Kpx",
+    "gains": [
+      3.2999999999999994,
+      1.3,
+      1.7000000000000004,
+      5.3,
+      2.5999999999999996,
+      5.3,
+      0.1,
+      0.1,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.2164909658970171,
+    "trajectory_p95_m": 0.39651193026480624,
+    "cross_track_mean_m": 0.13679655159240928,
+    "cross_track_p95_m": 0.18631762670769123,
+    "final_error_mean_m": 0.16128211488975233,
+    "final_error_p95_m": 0.4275875492472477,
+    "torque_saturation_mean_pct": 0.012496875781054738,
+    "performance_cost": 1.3233590582420565,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 10,
+    "sweep": 2,
+    "parameter": "Kpy",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      5.3,
+      2.5999999999999996,
+      5.3,
+      0.1,
+      0.1,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21431229265299181,
+    "trajectory_p95_m": 0.3964181149033919,
+    "cross_track_mean_m": 0.135915744464062,
+    "cross_track_p95_m": 0.1869400361619702,
+    "final_error_mean_m": 0.16005689401436696,
+    "final_error_p95_m": 0.42745605432469286,
+    "torque_saturation_mean_pct": 0.012496875781054738,
+    "performance_cost": 1.319906960220489,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 11,
+    "sweep": 2,
+    "parameter": "Kvx",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      5.0,
+      2.5999999999999996,
+      5.3,
+      0.1,
+      0.1,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21436120680383214,
+    "trajectory_p95_m": 0.39620612307671277,
+    "cross_track_mean_m": 0.13611178777927332,
+    "cross_track_p95_m": 0.18716972581923325,
+    "final_error_mean_m": 0.15925947751618266,
+    "final_error_p95_m": 0.426372256832327,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3181249266555106,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 12,
+    "sweep": 2,
+    "parameter": "Kvy",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      5.0,
+      2.8999999999999995,
+      5.3,
+      0.1,
+      0.1,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21403123123215306,
+    "trajectory_p95_m": 0.39628185731627585,
+    "cross_track_mean_m": 0.13575038978203482,
+    "cross_track_p95_m": 0.1859691605689614,
+    "final_error_mean_m": 0.15947471216971526,
+    "final_error_p95_m": 0.426556339062534,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.317435211919996,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 13,
+    "sweep": 2,
+    "parameter": "Kvz",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      5.0,
+      2.8999999999999995,
+      5.6,
+      0.1,
+      0.1,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21363884524433258,
+    "trajectory_p95_m": 0.3947873358198846,
+    "cross_track_mean_m": 0.1358468935277647,
+    "cross_track_p95_m": 0.18628194024392122,
+    "final_error_mean_m": 0.15988350551116445,
+    "final_error_p95_m": 0.4256784968257478,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.31518169891543,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 14,
+    "sweep": 2,
+    "parameter": "Kix",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      5.0,
+      2.8999999999999995,
+      5.6,
+      0.15000000000000002,
+      0.1,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21288055473242912,
+    "trajectory_p95_m": 0.39305881480274857,
+    "cross_track_mean_m": 0.13454819238173768,
+    "cross_track_p95_m": 0.18619925999820336,
+    "final_error_mean_m": 0.16070125819442566,
+    "final_error_p95_m": 0.4259550359241574,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3128940503013735,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 15,
+    "sweep": 2,
+    "parameter": "Kiy",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      5.0,
+      2.8999999999999995,
+      5.6,
+      0.15000000000000002,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21085584759460957,
+    "trajectory_p95_m": 0.39264307545213273,
+    "cross_track_mean_m": 0.13311129453262166,
+    "cross_track_p95_m": 0.1865327271550056,
+    "final_error_mean_m": 0.1630967215408662,
+    "final_error_p95_m": 0.42661607398209495,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.312359524034549,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 16,
+    "sweep": 3,
+    "parameter": "Kpx",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      5.0,
+      2.8999999999999995,
+      5.6,
+      0.15000000000000002,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21074645534735792,
+    "trajectory_p95_m": 0.3925513492131644,
+    "cross_track_mean_m": 0.132846482524815,
+    "cross_track_p95_m": 0.18649383888851664,
+    "final_error_mean_m": 0.16292838560784054,
+    "final_error_p95_m": 0.42643676788632884,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.311700997365646,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 17,
+    "sweep": 3,
+    "parameter": "Kvx",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.7,
+      2.8999999999999995,
+      5.6,
+      0.15000000000000002,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.2108295603288036,
+    "trajectory_p95_m": 0.3923023629813703,
+    "cross_track_mean_m": 0.13304932924189736,
+    "cross_track_p95_m": 0.18672389673114412,
+    "final_error_mean_m": 0.1622065965262241,
+    "final_error_p95_m": 0.4254713249784135,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3102447836760247,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 18,
+    "sweep": 3,
+    "parameter": "Kvy",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.7,
+      3.1999999999999993,
+      5.6,
+      0.15000000000000002,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.2104972677370962,
+    "trajectory_p95_m": 0.39240790772882245,
+    "cross_track_mean_m": 0.132699646557076,
+    "cross_track_p95_m": 0.18578087056720013,
+    "final_error_mean_m": 0.1628959598556467,
+    "final_error_p95_m": 0.42557041594667966,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3099877948727199,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 19,
+    "sweep": 3,
+    "parameter": "Kvz",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.7,
+      3.1999999999999993,
+      5.8999999999999995,
+      0.15000000000000002,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.21011315913339063,
+    "trajectory_p95_m": 0.39090570814570164,
+    "cross_track_mean_m": 0.13278920808837194,
+    "cross_track_p95_m": 0.1860795851456917,
+    "final_error_mean_m": 0.1631743660758365,
+    "final_error_p95_m": 0.4248103892959003,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3077444027551504,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 20,
+    "sweep": 3,
+    "parameter": "Kix",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.7,
+      3.1999999999999993,
+      5.8999999999999995,
+      0.2,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.2097972243511593,
+    "trajectory_p95_m": 0.3900754249811927,
+    "cross_track_mean_m": 0.1321488219564605,
+    "cross_track_p95_m": 0.18601886283619598,
+    "final_error_mean_m": 0.1635048222255866,
+    "final_error_p95_m": 0.4248057617627321,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3064908451668507,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 21,
+    "sweep": 4,
+    "parameter": "Kpx",
+    "gains": [
+      3.899999999999999,
+      1.6,
+      1.7000000000000004,
+      4.7,
+      3.1999999999999993,
+      5.8999999999999995,
+      0.2,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20981162146285198,
+    "trajectory_p95_m": 0.39017976225945794,
+    "cross_track_mean_m": 0.1320618955416631,
+    "cross_track_p95_m": 0.18606969516898872,
+    "final_error_mean_m": 0.16331435032031877,
+    "final_error_p95_m": 0.4248212405593776,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3064641573835007,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 22,
+    "sweep": 4,
+    "parameter": "Kvx",
+    "gains": [
+      3.899999999999999,
+      1.6,
+      1.7000000000000004,
+      4.4,
+      3.1999999999999993,
+      5.8999999999999995,
+      0.2,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20993260541697079,
+    "trajectory_p95_m": 0.3899417175333325,
+    "cross_track_mean_m": 0.13229240570441486,
+    "cross_track_p95_m": 0.18631380437319434,
+    "final_error_mean_m": 0.1626093018784786,
+    "final_error_p95_m": 0.4241093073337105,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3053436867379258,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 23,
+    "sweep": 4,
+    "parameter": "Kvy",
+    "gains": [
+      3.899999999999999,
+      1.6,
+      1.7000000000000004,
+      4.4,
+      3.499999999999999,
+      5.8999999999999995,
+      0.2,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20970206332761196,
+    "trajectory_p95_m": 0.39007395585713706,
+    "cross_track_mean_m": 0.13194194538197293,
+    "cross_track_p95_m": 0.1850614105209948,
+    "final_error_mean_m": 0.16335263951993528,
+    "final_error_p95_m": 0.4242164336719358,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3051085854543687,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 24,
+    "sweep": 4,
+    "parameter": "Kvz",
+    "gains": [
+      3.899999999999999,
+      1.6,
+      1.7000000000000004,
+      4.4,
+      3.499999999999999,
+      6.199999999999999,
+      0.2,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20932498237586797,
+    "trajectory_p95_m": 0.3885690167239854,
+    "cross_track_mean_m": 0.13202308216017408,
+    "cross_track_p95_m": 0.18534112500558764,
+    "final_error_mean_m": 0.16365690095189514,
+    "final_error_p95_m": 0.42354333129334637,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3029620846962504,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 25,
+    "sweep": 4,
+    "parameter": "Kix",
+    "gains": [
+      3.899999999999999,
+      1.6,
+      1.7000000000000004,
+      4.4,
+      3.499999999999999,
+      6.199999999999999,
+      0.25,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20917086877345642,
+    "trajectory_p95_m": 0.38807538854616797,
+    "cross_track_mean_m": 0.1316700119634126,
+    "cross_track_p95_m": 0.18536499713143462,
+    "final_error_mean_m": 0.16398016274703162,
+    "final_error_p95_m": 0.4237383546899154,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3025872136234857,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 26,
+    "sweep": 5,
+    "parameter": "Kpx",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.4,
+      3.499999999999999,
+      6.199999999999999,
+      0.25,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.2091234669041683,
+    "trajectory_p95_m": 0.3879438370707229,
+    "cross_track_mean_m": 0.13170257651347309,
+    "cross_track_p95_m": 0.18527367563379069,
+    "final_error_mean_m": 0.16419452883640537,
+    "final_error_p95_m": 0.42372255343217047,
+    "torque_saturation_mean_pct": 0.004998750312421895,
+    "performance_cost": 1.3025238551142462,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 27,
+    "sweep": 5,
+    "parameter": "Kvx",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.1000000000000005,
+      3.499999999999999,
+      6.199999999999999,
+      0.25,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20926275165657265,
+    "trajectory_p95_m": 0.38776288025048616,
+    "cross_track_mean_m": 0.1319493369504243,
+    "cross_track_p95_m": 0.18556587759758883,
+    "final_error_mean_m": 0.16346155073581944,
+    "final_error_p95_m": 0.4234025395319497,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.3018319292680038,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 28,
+    "sweep": 5,
+    "parameter": "Kvz",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.1000000000000005,
+      3.499999999999999,
+      6.499999999999999,
+      0.25,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20889306251233428,
+    "trajectory_p95_m": 0.38626084002666583,
+    "cross_track_mean_m": 0.13202324019711256,
+    "cross_track_p95_m": 0.18582754933239104,
+    "final_error_mean_m": 0.16378599321262777,
+    "final_error_p95_m": 0.4227885640692094,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2997573437855563,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 29,
+    "sweep": 5,
+    "parameter": "Kix",
+    "gains": [
+      3.599999999999999,
+      1.6,
+      1.7000000000000004,
+      4.1000000000000005,
+      3.499999999999999,
+      6.499999999999999,
+      0.3,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20877917779926958,
+    "trajectory_p95_m": 0.38589470715300994,
+    "cross_track_mean_m": 0.1318480982858706,
+    "cross_track_p95_m": 0.1862479718433393,
+    "final_error_mean_m": 0.1640130496871407,
+    "final_error_p95_m": 0.42282564480819074,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2996073395935548,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 30,
+    "sweep": 6,
+    "parameter": "Kpx",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      4.1000000000000005,
+      3.499999999999999,
+      6.499999999999999,
+      0.3,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20878813550554684,
+    "trajectory_p95_m": 0.38582637816534865,
+    "cross_track_mean_m": 0.1318310396282233,
+    "cross_track_p95_m": 0.18577467357144495,
+    "final_error_mean_m": 0.16431630676395823,
+    "final_error_p95_m": 0.42274775017714,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2994523380239622,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 31,
+    "sweep": 6,
+    "parameter": "Kvx",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      3.8000000000000007,
+      3.499999999999999,
+      6.499999999999999,
+      0.3,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20892722080494255,
+    "trajectory_p95_m": 0.3856912730461818,
+    "cross_track_mean_m": 0.13215175186275352,
+    "cross_track_p95_m": 0.18643144409296475,
+    "final_error_mean_m": 0.16352921165911638,
+    "final_error_p95_m": 0.4227427837953349,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2993497718717797,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 32,
+    "sweep": 6,
+    "parameter": "Kvz",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      3.8000000000000007,
+      3.499999999999999,
+      6.799999999999999,
+      0.3,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20857378203063454,
+    "trajectory_p95_m": 0.3841916671756986,
+    "cross_track_mean_m": 0.13272730285756315,
+    "cross_track_p95_m": 0.18947037178674977,
+    "final_error_mean_m": 0.16385683316168936,
+    "final_error_p95_m": 0.4221783917727952,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.298985290675676,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 33,
+    "sweep": 6,
+    "parameter": "Kix",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      3.8000000000000007,
+      3.499999999999999,
+      6.799999999999999,
+      0.35,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20853907246145925,
+    "trajectory_p95_m": 0.3839215658795908,
+    "cross_track_mean_m": 0.13255118861436105,
+    "cross_track_p95_m": 0.1894297642835699,
+    "final_error_mean_m": 0.16399442258020402,
+    "final_error_p95_m": 0.4221176086449608,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2986145278732535,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 34,
+    "sweep": 7,
+    "parameter": "Kvy",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      3.8000000000000007,
+      3.1999999999999993,
+      6.799999999999999,
+      0.35,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20880246079281828,
+    "trajectory_p95_m": 0.3837887901780772,
+    "cross_track_mean_m": 0.1327792003393265,
+    "cross_track_p95_m": 0.19003076360171076,
+    "final_error_mean_m": 0.16322444842415615,
+    "final_error_p95_m": 0.42200603387514785,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2984705906378031,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 35,
+    "sweep": 7,
+    "parameter": "Kvz",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      3.8000000000000007,
+      3.1999999999999993,
+      7.0,
+      0.35,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.2085605470757657,
+    "trajectory_p95_m": 0.38278831040387945,
+    "cross_track_mean_m": 0.1328128931189962,
+    "cross_track_p95_m": 0.19014195352196037,
+    "final_error_mean_m": 0.16346606037311978,
+    "final_error_p95_m": 0.4216552244040528,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2971310379871401,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 36,
+    "sweep": 7,
+    "parameter": "Kix",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      3.8000000000000007,
+      3.1999999999999993,
+      7.0,
+      0.39999999999999997,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.2085690372800319,
+    "trajectory_p95_m": 0.3826035536381491,
+    "cross_track_mean_m": 0.13270887020430544,
+    "cross_track_p95_m": 0.19011194702567488,
+    "final_error_mean_m": 0.16355695651653362,
+    "final_error_p95_m": 0.42157622009858137,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.2968769245222769,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  },
+  {
+    "iteration": 37,
+    "sweep": 8,
+    "parameter": "Kix",
+    "gains": [
+      3.2999999999999994,
+      1.6,
+      1.7000000000000004,
+      3.8000000000000007,
+      3.1999999999999993,
+      7.0,
+      0.44999999999999996,
+      0.15000000000000002,
+      0.15000000000000002
+    ],
+    "success_rate": 0.8,
+    "successful_cases": 8,
+    "trajectory_mean_m": 0.20860852920566453,
+    "trajectory_p95_m": 0.3824770379766605,
+    "cross_track_mean_m": 0.13265644415230016,
+    "cross_track_p95_m": 0.1900930325121357,
+    "final_error_mean_m": 0.16362361758856847,
+    "final_error_p95_m": 0.42150624041517853,
+    "torque_saturation_mean_pct": 0.0024993751562109477,
+    "performance_cost": 1.296734246624272,
+    "failure_reasons": {
+      "mission_not_complete": 2
+    }
+  }
+]

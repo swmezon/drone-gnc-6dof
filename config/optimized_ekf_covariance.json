@@ -1,0 +1,24 @@
+{
+  "tuning_method": "single_run_nominal_ekf_covariance_coordinate_search",
+  "sensor_seed": 24,
+  "p0_scale": 0.1,
+  "q_accel_scale": 0.1,
+  "q_gyro_scale": 1.6666666666666665,
+  "q_accel_bias_scale": 0.1,
+  "q_gyro_bias_scale": 0.1,
+  "r_gps_pos_scale": 5.0,
+  "r_gps_vel_scale": 2.0,
+  "result": {
+    "cost": 0.865088474243781,
+    "success": true,
+    "waypoints_reached": 5,
+    "trajectory_rmse_m": 0.07407791779514471,
+    "cross_track_rmse_m": 0.05251968011343198,
+    "final_error_m": 0.07217481976173606,
+    "ekf_position_rmse_m": 0.06604751545521378,
+    "ekf_velocity_rmse_mps": 0.036581140767260045,
+    "ekf_roll_rmse_deg": 0.08975135971531617,
+    "ekf_pitch_rmse_deg": 0.11940514617194932,
+    "ekf_yaw_rmse_deg": 0.38065864411170686
+  }
+}

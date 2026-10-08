@@ -1,0 +1,252 @@
+[
+  {
+    "case": 1,
+    "mass_scale": 1.0823105223873841,
+    "inertia_scale": [
+      0.962753760623812,
+      1.030088112888278,
+      1.0625511043564018
+    ],
+    "wind_mps2": [
+      -0.2768750900067128,
+      0.006885837983126308,
+      -0.015778691203581774
+    ],
+    "sensor_seed": 1598498260,
+    "result": {
+      "valid": true,
+      "success": false,
+      "failure_reason": "mission_not_complete",
+      "trajectory_rmse_m": 0.5794676884509721,
+      "cross_track_rmse_m": 0.17536816794675203,
+      "final_error_m": 0.6592688713053761,
+      "ekf_position_rmse_m": 0.14600237457507892,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 2,
+    "mass_scale": 0.9722189420270443,
+    "inertia_scale": [
+      1.0192867910992895,
+      1.0408524339029848,
+      1.0338827334139733
+    ],
+    "wind_mps2": [
+      0.26044919428423974,
+      0.014688725942489489,
+      -0.13926591790524398
+    ],
+    "sensor_seed": 262309539,
+    "result": {
+      "valid": true,
+      "success": true,
+      "failure_reason": "none",
+      "trajectory_rmse_m": 0.19198812911531563,
+      "cross_track_rmse_m": 0.1713246072766534,
+      "final_error_m": 0.12116040913190805,
+      "ekf_position_rmse_m": 0.11695294357728678,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 3,
+    "mass_scale": 1.0127904079184913,
+    "inertia_scale": [
+      1.062756784141179,
+      0.9537560467398538,
+      0.917078486741894
+    ],
+    "wind_mps2": [
+      -0.11602976734988849,
+      -0.056692715843399855,
+      -0.05857710770277064
+    ],
+    "sensor_seed": 1309494183,
+    "result": {
+      "valid": true,
+      "success": true,
+      "failure_reason": "none",
+      "trajectory_rmse_m": 0.17633523868583942,
+      "cross_track_rmse_m": 0.1262526781764857,
+      "final_error_m": 0.229264486614844,
+      "ekf_position_rmse_m": 0.14914895572118664,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 4,
+    "mass_scale": 0.9497417840117967,
+    "inertia_scale": [
+      1.028827236457426,
+      1.0204825530491366,
+      0.9724725168730131
+    ],
+    "wind_mps2": [
+      0.09584548148342498,
+      0.23144902806937628,
+      -0.06004441949848903
+    ],
+    "sensor_seed": 702199539,
+    "result": {
+      "valid": true,
+      "success": false,
+      "failure_reason": "mission_not_complete",
+      "trajectory_rmse_m": 0.41760810237078866,
+      "cross_track_rmse_m": 0.3248864583068381,
+      "final_error_m": 0.33314057648590356,
+      "ekf_position_rmse_m": 0.15552456401274048,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 5,
+    "mass_scale": 1.013396901130334,
+    "inertia_scale": [
+      0.9920617289637135,
+      0.9474650266396318,
+      1.0183569756576432
+    ],
+    "wind_mps2": [
+      -0.12339647461745043,
+      -0.1064591119183734,
+      -0.14167172089543448
+    ],
+    "sensor_seed": 1854389339,
+    "result": {
+      "valid": true,
+      "success": false,
+      "failure_reason": "final_error_limit",
+      "trajectory_rmse_m": 0.28008700900183503,
+      "cross_track_rmse_m": 0.21447339134088617,
+      "final_error_m": 0.2753163035270372,
+      "ekf_position_rmse_m": 0.13251851606575304,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 6,
+    "mass_scale": 0.9988700739106315,
+    "inertia_scale": [
+      1.0511956177166741,
+      0.9116191604721875,
+      1.0924533524294708
+    ],
+    "wind_mps2": [
+      -0.06631330313063644,
+      -0.21730924437869914,
+      0.0378338705667062
+    ],
+    "sensor_seed": 1890138848,
+    "result": {
+      "valid": true,
+      "success": true,
+      "failure_reason": "none",
+      "trajectory_rmse_m": 0.26031839135493956,
+      "cross_track_rmse_m": 0.204085238322378,
+      "final_error_m": 0.1822218669595276,
+      "ekf_position_rmse_m": 0.12221964618279242,
+      "torque_saturation_pct": 0.024993751562109475
+    }
+  },
+  {
+    "case": 7,
+    "mass_scale": 1.095247629278875,
+    "inertia_scale": [
+      1.0782135019985357,
+      1.0733094033432995,
+      0.9052729544991
+    ],
+    "wind_mps2": [
+      -0.3197421720760722,
+      -0.19707245905730997,
+      0.044018264026250586
+    ],
+    "sensor_seed": 1503926044,
+    "result": {
+      "valid": true,
+      "success": false,
+      "failure_reason": "mission_not_complete",
+      "trajectory_rmse_m": 0.6450650642870743,
+      "cross_track_rmse_m": 0.2222996050138858,
+      "final_error_m": 0.682977039397416,
+      "ekf_position_rmse_m": 0.11951732064581506,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 8,
+    "mass_scale": 1.020406890770555,
+    "inertia_scale": [
+      1.0610079989165064,
+      0.9726594405087066,
+      1.0528569910425525
+    ],
+    "wind_mps2": [
+      0.1612712573058983,
+      -0.005815095386730973,
+      0.012052685367526766
+    ],
+    "sensor_seed": 952488370,
+    "result": {
+      "valid": true,
+      "success": true,
+      "failure_reason": "none",
+      "trajectory_rmse_m": 0.26456908665585027,
+      "cross_track_rmse_m": 0.22576467829992813,
+      "final_error_m": 0.19271569903481683,
+      "ekf_position_rmse_m": 0.1556611452923416,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 9,
+    "mass_scale": 0.9400268231744487,
+    "inertia_scale": [
+      1.0423735175708393,
+      0.9860346658114645,
+      0.9143374986549572
+    ],
+    "wind_mps2": [
+      0.09606253888217775,
+      0.2543900563610366,
+      -0.1739284772035116
+    ],
+    "sensor_seed": 897757551,
+    "result": {
+      "valid": true,
+      "success": false,
+      "failure_reason": "mission_not_complete",
+      "trajectory_rmse_m": 0.3865429794496909,
+      "cross_track_rmse_m": 0.2965400767592243,
+      "final_error_m": 0.4476209795216492,
+      "ekf_position_rmse_m": 0.1142236931187464,
+      "torque_saturation_pct": 0.0
+    }
+  },
+  {
+    "case": 10,
+    "mass_scale": 1.0077967961634395,
+    "inertia_scale": [
+      0.9016784153967157,
+      1.0083987943024502,
+      1.0554505262382023
+    ],
+    "wind_mps2": [
+      0.1754410879480317,
+      -0.10008178070750759,
+      0.09257296863378373
+    ],
+    "sensor_seed": 807058867,
+    "result": {
+      "valid": true,
+      "success": true,
+      "failure_reason": "none",
+      "trajectory_rmse_m": 0.16793333959503165,
+      "cross_track_rmse_m": 0.1304799779587736,
+      "final_error_m": 0.20124904317636547,
+      "ekf_position_rmse_m": 0.1386914567118012,
+      "torque_saturation_pct": 0.024993751562109475
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "tuning_method": "nominal_perfect_state_pid_coordinate_search",
+  "feedback": "perfect_true_state",
+  "ekf_enabled": false,
+  "sensor_noise_enabled": false,
+  "monte_carlo_enabled": false,
+  "kp_pos": [
+    5.2,
+    5.7,
+    7.0
+  ],
+  "kd_pos": [
+    7.0,
+    7.0,
+    7.0
+  ],
+  "ki_pos": [
+    0.8499999999999999,
+    0.15,
+    0.0
+  ],
+  "nominal_result": {
+    "cost": 0.05684703821144674,
+    "success": true,
+    "waypoints_reached": 5,
+    "trajectory_rmse_m": 0.005516419685689594,
+    "cross_track_rmse_m": 0.001736829132454433,
+    "cross_track_max_m": 0.005652827995570341,
+    "final_error_m": 0.00041050432200678177,
+    "attitude_rmse_deg": 0.2766828172276241,
+    "torque_saturation_pct": 0.0,
+    "thrust_saturation_pct": 0.0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "position_noise_std_m": 0.02,
+  "sensor_seed": 24,
+  "requested_target_trajectory_rmse_m": 0.005,
+  "requested_target_cross_track_rmse_m": 0.005,
+  "kp_att": [
+    6.5,
+    6.5,
+    2.5
+  ],
+  "kp_rate": [
+    0.49999999999999994,
+    0.49999999999999994,
+    0.26
+  ],
+  "ki_rate": [
+    0.0,
+    0.0,
+    0.018
+  ],
+  "kd_rate": [
+    0.023999999999999997,
+    0.023999999999999997,
+    0.009
+  ],
+  "kp_pos": [
+    4.2,
+    4.2,
+    5.25
+  ],
+  "kd_pos": [
+    5.25,
+    5.25,
+    8.75
+  ],
+  "ki_pos": [
+    0.8500000000000002,
+    0.8500000000000002,
+    0.35
+  ],
+  "final_result": {
+    "success": true,
+    "waypoints_reached": 5,
+    "trajectory_rmse_m": 0.02229981246574569,
+    "cross_track_rmse_m": 0.017988083969930947,
+    "cross_track_max_m": 0.04303979387063011,
+    "final_error_m": 0.026979039701747535,
+    "ekf_position_rmse_m": 0.01757928803750008,
+    "ekf_velocity_rmse_mps": 0.03839430006418038,
+    "roll_rmse_deg": 0.9466459776460101,
+    "pitch_rmse_deg": 0.9953468107483942,
+    "yaw_rmse_deg": 0.6401344382770997,
+    "thrust_saturation_pct": 0.0,
+    "torque_saturation_pct": 0.024993751562109475,
+    "cost": 1.6414437941971942
+  }
+}
